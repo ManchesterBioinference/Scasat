@@ -11,7 +11,7 @@ You have to have the following tools installed in the machine where you are runn
 If you are using jupyter from anaconda installation then you can install the tools with the following command
 * samtools: conda install -c bioconda samtools
 * bedtools: conda install -c bioconda bedtools 
-* macs2: conda install -c bioconda macs2 (please note that macs2 only runs on python2.7 so you have to create a python2.7 environment if you are using python3
+* macs2: conda install -c bioconda macs2 (please note that macs2 only runs on python2.7 so you have to create a python2.7 environment if you are using python3)
 
 ## Application: ##
 Two notebooks to process two different datasets are provided here. 
@@ -22,7 +22,7 @@ The objective of this experiment was to deconvolute the different cells from a c
 
 __Experimental design:__
 
-Two classic oesophageal adenocarcinoma (OAC) cell lines, OE19, OE33 and one non-neoplastic HET1A cell line were mixed together to create the complex mixture of population. These three cell lines were mixed at equal proportion to create this mixture. Single cell ATAC-seq was then performed on those two replicates by loading on two separate C1 fluidigm chips using a $96$ well plate integrated fluidic circuit (IFC) and sequenced on an Illumina NextSeq. This experimental figure is shown in the figure below
+Two classic oesophageal adenocarcinoma (OAC) cell lines, OE19, OE33 and one non-neoplastic HET1A cell line were mixed together to create the complex mixture of population. These three cell lines were mixed at equal proportion to create this mixture. Single cell ATAC-seq was then performed on those two replicates by loading on two separate C1 fluidigm chips using a 96 well plate integrated fluidic circuit (IFC) and sequenced on an Illumina NextSeq. This experimental figure is shown in the figure below
 
 <img src="ExperimentalDesign.png" alt="Experimental Desing" style="width: 500px;"/>
 
