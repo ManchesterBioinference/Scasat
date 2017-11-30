@@ -1,9 +1,9 @@
 # Scasat (Single cell ATAC-seq analysis tool)
-Scasat (single cell ATAC-seq analysis tool) is a complete pipeline to process scATAC-seq data with simple steps. The pipeline is developed in a Jupyter notebook environment that holds the executable code along with the necessary description and results. For the initial sequence processing steps, the pipeline uses a number of well-known tools which it executes from a python environment for each of the fastq files. While functions for the data analysis part are mostly written in R.
+Scasat (single cell ATAC-seq analysis tool) is a complete pipeline to process single cell ATAC-seq data with simple steps. The pipeline is developed in a Jupyter notebook environment that holds the executable code along with the necessary description and results. For the initial sequence processing steps, the pipeline uses a number of well-known tools which it executes from a python environment for each of the fastq files. While functions for the data analysis part are mostly written in R.
 
 ## Prerequisites:
 
-You have to have the following tools installed in the machine where you are running ScAsAT
+You have to have the following tools installed in the machine where you are running Scasat
 1. [samtools](http://www.htslib.org)
 2. [bedtools](http://bedtools.readthedocs.io/en/latest/)
 3. [macs2](https://github.com/taoliu/MACS)
@@ -27,4 +27,4 @@ Two classic oesophageal adenocarcinoma (OAC) cell lines, OE19, OE33 and one non-
 <img src="ExperimentalDesign.png" alt="Experimental Desing" style="width: 500px;"/>
 
 ### Public datatset: ###
-ScAsAT is then applied to process and analyze the public dataset by [_Buenrostro et. al._](https://www.nature.com/articles/nature14590)
+Scasat is then applied to process and analyze the public dataset by [_Buenrostro et. al._](https://www.nature.com/articles/nature14590)
