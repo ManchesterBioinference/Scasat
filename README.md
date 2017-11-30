@@ -13,7 +13,7 @@ If you are using jupyter from anaconda installation then you can install the too
 * bedtools: conda install -c bioconda bedtools 
 * macs2: conda install -c bioconda macs2 (please note that macs2 only runs on python2.7 so you have to create a python2.7 environment if you are using python3
 
-## Application#:#
+## Application:##
 Two notebooks to process two different datasets are provided here. 
 
 ### Deconvolute cell types ###
@@ -26,5 +26,5 @@ Two classic oesophageal adenocarcinoma (OAC) cell lines, OE19, OE33 and one non-
 
 <img src="ExperimentalDesign.png" alt="Experimental Desing" style="width: 500px;"/>
 
-
-
+### Public datatset: ###
+ScAsAT is then applied to process and analyze the public dataset by [_Buenrostro et. al._](https://www.nature.com/articles/nature14590)
