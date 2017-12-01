@@ -7,11 +7,19 @@ You have to have the following tools installed in the machine where you are runn
 1. [samtools](http://www.htslib.org)
 2. [bedtools](http://bedtools.readthedocs.io/en/latest/)
 3. [macs2](https://github.com/taoliu/MACS)
+4. [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+5. [picard](http://broadinstitute.github.io/picard/)
+6. [trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 
-If you are using jupyter from anaconda installation then you can install the tools with the following command
+If you have anaconda installed and using jupyter from anaconda then you can install the tools with the following anaconda commands
 * samtools: conda install -c bioconda samtools
 * bedtools: conda install -c bioconda bedtools 
 * macs2: conda install -c bioconda macs2 (please note that macs2 only runs on python2.7 so you have to create a python2.7 environment if you are using python3)
+* bowtie2: conda install -c bioconda bowtie2
+* picard: conda install -c bioconda picard
+* trimmomatic: conda install -c faircloth-lab trimmomatic
+
+
 
 ## Application: ##
 Two notebooks to process two different datasets are provided here. 
