@@ -14,7 +14,7 @@ You have to have the following tools installed in the machine where you are runn
 If you have anaconda installed and using jupyter from anaconda then you can install the tools with the following anaconda commands
 * samtools: conda install -c bioconda samtools
 * bedtools: conda install -c bioconda bedtools 
-* macs2: conda install -c bioconda macs2 (please note that macs2 only runs on python2.7 so you have to create a python2.7 environment if you are using python3)
+* macs2: sudo apt install macs
 * bowtie2: conda install -c bioconda bowtie2
 * picard: conda install -c bioconda picard
 * trimmomatic: conda install -c faircloth-lab trimmomatic
