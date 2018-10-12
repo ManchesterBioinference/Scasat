@@ -36,3 +36,6 @@ Two classic oesophageal adenocarcinoma (OAC) cell lines, OE19, OE33 and one non-
 
 ### Public datatset: ###
 Scasat is then applied to process and analyze the public dataset by [_Buenrostro et. al._](https://www.nature.com/articles/nature14590) and subsampled cells of [_Cusanovich et. al._](https://www.cell.com/cell/pdf/S0092-8674(18)30855-9.pdf)
+
+## Publication
+Pre-print related to Scasat can be accessed through this [link](https://www.biorxiv.org/content/early/2017/11/30/227397)
